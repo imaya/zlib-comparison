@@ -387,7 +387,7 @@ function zlibjs() {
 	var str = "";
 
 	for (i = 0, il = out.length; i < il; ++i) {
-		str += String.fromCharCode(out, out[i]);
+		str += String.fromCharCode(out[i]);
 	}
 
 	return str;
